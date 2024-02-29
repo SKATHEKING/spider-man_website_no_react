@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" lang="en>
+    <head>
+        <meta charset="utf-8" />
+         <!-- Add React and ReactDOM scripts -->
+        <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+
+        <!-- Add your React component script -->
+        <script src="path/to/your-react-component.js"></script>
+        <script src="https://unpkg.com/babel-standalone/babel-standalone.js"></script>
+        <title>React</title>
+    </head>
+    <body>
+        <div id="root"></div>
+        <div id="screenshots"></div>
+        <script type="text/javascript">
+            let heading = React.createElement("h1", null, "Welcome to the Spider-man No Way Home Page!!!")
+            let list = React.createElement("ul", 
+                                            {style:{color:"blue"}},
+                        React.createElement("li",null,"Spider-man No Way Home Page"),
+                        React.createElement("li",null,"Spider-man No Way Home Page"));
+            ReactDOM.render(
+            heading,
+            document.getElementById("root"),
+            );
+            ReactDOM.render(list,document.getElementsById("screenshots"));
+        </script>
+    </body>
+</html>

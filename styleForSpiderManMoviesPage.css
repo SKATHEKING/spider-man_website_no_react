@@ -1,0 +1,78 @@
+ /* Remove bullets (dots) from unordered list with class "custom-list" */
+ .movie_posters {
+    list-style-type: none; /* Removes the default list-style-type (usually bullets) */
+    padding: 0; /* Optional: Remove default padding for cleaner appearance */
+    margin: 0; /* Optional: Remove default margin for cleaner appearance */
+}
+.IMDB > li{
+    list-style-type: none; /* Removes the default list-style-type (usually bullets) */
+    padding: 0; /* Optional: Remove default padding for cleaner appearance */
+    margin: 0; /* Optional: Remove default margin for cleaner appearance */
+}
+.links{
+    list-style-type: none; /* Removes the default list-style-type (usually bullets) */
+    padding: 0; /* Optional: Remove default padding for cleaner appearance */
+    margin: 0; /* Optional: Remove default margin for cleaner appearance */
+}
+
+
+#main_bit{
+    text-align: center;
+
+}
+
+.movie_posters {
+    text-align: center;
+    display: inline-flex; 
+    gap: 30px;
+    
+    
+
+}
+
+img {
+    width: 500px;
+    height: 500px;
+}
+    
+    
+.poster_image { 
+    
+    margin: 10px; /* Adjust margin as needed */
+    
+}
+.caption{
+    display: inline-block;
+    font-size: medium;
+
+}
+
+hr{
+    display: none;
+}
+a{
+    color:black;
+}
+a:active{ 
+    color:black;
+}
+a:hover{
+    color:black;
+}
+html{
+    background:#5AACD4ff ; 
+}
+
+/* CSS HEX  colour pallete */
+/**
+--space-cadet: #131D43ff;
+--oxford-blue: #0B0D23ff;
+--picton-blue: #5AACD4ff;
+--azure-web: #D9ECF2ff;
+--rose-quartz: #A58A9Fff;
+
+# for id selector
+. for class selector
+
+**/
+
